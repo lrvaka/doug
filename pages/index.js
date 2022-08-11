@@ -162,7 +162,7 @@ export default function Home() {
         <div className="my-24 px-4 text-5xl font-extrabold flex flex-col gap-6 text-theme-400 lg:text-7xl lg:max-w-xl mx-auto">
           <h2 className="">Need Remodeling or Renovating?</h2>
           <h2>
-            Doug'll <br />
+            Doug&apos;ll <br />
             Do It
           </h2>
           <div
