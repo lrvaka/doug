@@ -82,7 +82,10 @@ export default function Home() {
               updating your bathroom, please get in touch - I would love to help
               you create the bathroom of your dreams.
             </p>
-            <button className="bg-theme-400 text-theme-100 p-2 font-medium text-xl flex gap-2 w-max">
+            <a
+              href="#contact"
+              className="bg-theme-400 text-theme-100 p-2 font-medium text-xl flex gap-2 w-max"
+            >
               Contact Now
               <svg
                 className="w-4 h-4 self-center"
@@ -95,7 +98,7 @@ export default function Home() {
                   stroke="white"
                 />
               </svg>
-            </button>
+            </a>
           </div>
         </div>
         <Features />

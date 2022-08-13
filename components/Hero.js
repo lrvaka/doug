@@ -28,7 +28,10 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex gap-4">
-          <button className="bg-theme-400 text-theme-100 p-2 font-medium text-xl flex gap-2">
+          <a
+            href="#contact"
+            className="bg-theme-400 text-theme-100 p-2 font-medium text-xl flex gap-2"
+          >
             Contact Now
             <svg
               className="w-4 h-4 self-center"
@@ -41,10 +44,13 @@ const Hero = () => {
                 stroke="white"
               />
             </svg>
-          </button>
-          <button className="border border-theme-400 text-theme-400 p-2 font-medium text-xl ">
+          </a>
+          <a
+            href="#portfolio"
+            className="border border-theme-400 text-theme-400 p-2 font-medium text-xl "
+          >
             View Portfolio
-          </button>
+          </a>
         </div>
       </div>
       <motion.div
