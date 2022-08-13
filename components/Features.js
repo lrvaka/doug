@@ -45,8 +45,8 @@ const Features = () => {
             <Image src={servicesImg1} alt="features 1" />
           </div>
           <p className="lg:text-lg">
-            As a pipefitter by trade, I have vast knowledge of plumbing and can
-            handle any necessary repairs and changes
+            As a plumber by trade, I have all the necessary knowledge to make
+            even the most drastic changes to a bathroom possible
           </p>
         </motion.div>
         <motion.div
@@ -57,8 +57,8 @@ const Features = () => {
             <Image src={servicesImg2} alt="features 2" />
           </div>
           <p className="lg:text-lg">
-            Experience in tiling, drywall, painting, and carpentry, so I can
-            handle all the necessary work in bathroom renovation/remodeling
+            Experience in tiling, drywall, painting, carpentry, electrical and
+            more. So I can handle every aspect of the remodeling/renovation process
           </p>
         </motion.div>
         <motion.div
