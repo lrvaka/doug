@@ -2,11 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://rsms.me/inter/inter.css");
-
 @layer base {
   html {
-    font-family: "Inter", system-ui, sans-serif;
+    font-family: "Inter";
   }
 }
 
@@ -14,7 +12,10 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Inter", sans-serif;
+}
+
+body {
+ position: relative;
 }
 
 a {
