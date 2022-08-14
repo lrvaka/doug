@@ -22,10 +22,10 @@ const Hero = () => {
               </svg>
             </span>
           </h1>
-          <div className="text-xl lg:text-2xl">
+          <h2 className="text-xl lg:text-2xl">
             Get in contact with <span className="font-bold">THE</span> bathroom
             specialist today!
-          </div>
+          </h2>
         </div>
         <div className="flex gap-4">
           <a

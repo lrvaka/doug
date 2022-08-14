@@ -90,10 +90,13 @@ const Modal = (props) => {
             </>
 
             {portfolioSlides.map((e, i) => (
-              <div key={`${e + i}`} className="keen-slider__slide h-[500px]">
+              <div
+                key={`${e + i}`}
+                className="keen-slider__slide h-[500px] min-w-[300px] max-w-[500px]"
+              >
                 <Image
                   src={e}
-                  alt={`${portfolio + i}`}
+                  alt={`portfolio${i}`}
                   layout="fill"
                   objectFit="cover"
                 />
