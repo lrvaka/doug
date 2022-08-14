@@ -25,7 +25,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Doug&apos;ll Do It: Bathroom Renovation and Remodeling</title>
-        <link rel="icon" href="/logo.ico" />
+        <link rel="icon" href="/favicon.ico" />
         <link rel="canonical" href="https://www.douglldoit.com" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
