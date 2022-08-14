@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.douglldoit.com
+
+# Sitemaps
+Sitemap: https://www.douglldoit.com/sitemap.xml
